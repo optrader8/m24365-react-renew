@@ -208,7 +208,7 @@ const Web1920pxVer: NextPage = () => {
                   </div>
                 </div>
               </div>
-              <div className="self-stretch flex flex-row items-start justify-center gap-[46.7px] max-w-full mq1575:flex-wrap mq825:gap-[23px]">
+              <div className="self-stretch flex flex-row items-start justify-center gap-[46.7px] max-w-full overflow-x-auto mq1575:flex-wrap mq825:gap-[23px]">
                 <Containercard
                   propBoxShadow="0px 4px 4px rgba(0, 0, 0, 0.2)"
                   propGap="129px"
