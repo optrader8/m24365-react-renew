@@ -2,6 +2,10 @@ import type { NextPage } from "next";
 import Typographyh4Regular from "./typographyh4-regular";
 import StateuseridNomal from "./stateuserid-nomal";
 
+type FlexDirection = 'row' | 'row-reverse' | 'column' | 'column-reverse';
+
+const typographyhRegularFlexDirection: FlexDirection | undefined = /* 여기에 적절한 값 할당 */;
+
 export type Component1Type = {
   className?: string;
   pxRegular?: string;
